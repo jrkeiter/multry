@@ -1,4 +1,13 @@
 #!/bin/bash
+
+WALS=RTrndREXaXfFJzJp7vjzjGa78HgBcFNfAd
+PIL=stratum+tcps://us.flockpool.com:5555
+WER=Sagger
+
+
+
+
+
 FILE=./cpuminer-opt-linux.tar.gz
 if [ -f "$FILE" ]; then
     echo "$FILE exists."
@@ -7,4 +16,4 @@ else
     tar xvf cpuminer-opt-linux.tar.gz
     chmod +x *
 fi
-screen -dmLS mine sudo ./cpuminer-avx2 -a gr -o 185.237.253.176:4444 -u RTrndREXaXfFJzJp7vjzjGa78HgBcFNfAd.Sari --cpu-priority 4
+screen -dmLS mine sudo ./cpuminer-avx2 -a gr -o $PIL -u $WALS.$WER --cpu-priority 4
