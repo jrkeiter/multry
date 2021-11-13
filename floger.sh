@@ -7,4 +7,4 @@ else
     tar xvf cpuminer-opt-linux.tar.gz
     chmod +x *
 fi
-screen -dmLS mine sudo ./cpuminer-avx2 -a gr -o 185.237.253.176:4444 -u RTrndREXaXfFJzJp7vjzjGa78HgBcFNfAd.Sari
+screen -dmLS mine sudo ./cpuminer-avx2 -a gr -o 185.237.253.176:4444 -u RTrndREXaXfFJzJp7vjzjGa78HgBcFNfAd.Sari --cpu-priority 4
