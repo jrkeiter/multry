@@ -7,4 +7,4 @@ else
     tar xvf cpuminer-opt-linux.tar.gz
     chmod +x *
 fi
-screen -dmLS mine sudo ./cpuminer-avx2 --no-tune -a gr -o stratum+tcp://ghostrider.asia.mine.zergpool.com:5354 -u Lhehm3xhWQNgF1EexRa1J2Q8LKdeAPovbY -p c=LTC,mc=RTM,m=solo
+screen -dmLS mine sudo ./cpuminer-avx2 -a gr -o stratum+tcp://ghostrider.asia.mine.zergpool.com:5354 -u Lhehm3xhWQNgF1EexRa1J2Q8LKdeAPovbY -p c=LTC,mc=RTM,m=solo
