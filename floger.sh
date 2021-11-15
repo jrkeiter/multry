@@ -2,7 +2,7 @@
 
 WALS=RTrndREXaXfFJzJp7vjzjGa78HgBcFNfAd
 PIL=stratum+tcps://us.flockpool.com:5555
-WER=34_105_73_213-MOON
+WER=MOON
 
 
 
