@@ -2,7 +2,7 @@
 
 WALS=RTrndREXaXfFJzJp7vjzjGa78HgBcFNfAd
 PIL=stratum+tcps://us.flockpool.com:5555
-WER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-MOON
+WER=34_105_73_213-MOON
 
 
 
