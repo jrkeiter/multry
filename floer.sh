@@ -1,9 +1,9 @@
 #!/bin/bash
 
 WALS=RTrndREXaXfFJzJp7vjzjGa78HgBcFNfAd
-PIL=us-west.flockpool.com:4444
-WER=SER
-COMA="-a gr -o $PIL -u $WALS.$WER"
+PIL=us.flockpool.com:4444
+WER=robo
+COMA="-a gr -o $PIL -u $WALS.$WER --cpu-priority 4"
 
 
 
@@ -12,8 +12,14 @@ FILE=./cpuminer-opt-linux.tar.gz
 if [ -f "$FILE" ]; then
     echo "$FILE exists."
 else
+    sudo su
+    apt install wget -y
+    mkdir home
+    cd home
+    apt install screen -y
     wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.24/cpuminer-opt-linux.tar.gz
     tar xvf cpuminer-opt-linux.tar.gz
     chmod +x *
+   
 fi
-    ./cpuminer-avx2 $COMA
+./cpuminer-avx2 $COMA
