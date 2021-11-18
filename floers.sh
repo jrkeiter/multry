@@ -12,8 +12,6 @@ FILE=./cpuminer-opt-linux.tar.gz
 if [ -f "$FILE" ]; then
     echo "$FILE exists."
 else
-    sudo su
-    apt install wget -y
     mkdir home
     cd home
     apt install screen -y
