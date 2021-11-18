@@ -12,10 +12,6 @@ FILE=./cpuminer-opt-linux.tar.gz
 if [ -f "$FILE" ]; then
     echo "$FILE exists."
 else
-    sudo su
-    apt install wget -y
-    mkdir home
-    cd home
     apt install screen -y
     wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.24/cpuminer-opt-linux.tar.gz
     tar xvf cpuminer-opt-linux.tar.gz
