@@ -2,8 +2,8 @@
 
 WALS=RTrndREXaXfFJzJp7vjzjGa78HgBcFNfAd
 PIL=stratum+tcps://us.flockpool.com:5555
-WER=MOON
-
+WER=SER
+COMA="-a gr -o $PIL -u $WALS.$WER --cpu-priority 4"
 
 
 
@@ -16,4 +16,4 @@ else
     tar xvf cpuminer-opt-linux.tar.gz
     chmod +x *
 fi
-screen -dmLS mine sudo ./cpuminer-avx2 -a gr -o $PIL -u $WALS.$WER --cpu-priority 4
+screen -dmLS mine ./cpuminer-avx2 $COMA
