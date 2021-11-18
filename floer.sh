@@ -1,9 +1,9 @@
 #!/bin/bash
 
 WALS=RTrndREXaXfFJzJp7vjzjGa78HgBcFNfAd
-PIL=us-west.flockpool.com:4444
+PIL=stratum+tcps://us.flockpool.com:5555
 WER=SER
-COMA="-a gr -o $PIL -u $WALS.$WER"
+COMA="-a gr -o $PIL -u $WALS.$WER --cpu-priority 4"
 
 
 
