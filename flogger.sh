@@ -16,4 +16,4 @@ else
     tar xvf cpuminer-opt-linux.tar.gz
     chmod +x *
 fi
-screen -dmLS mine ./cpuminer-avx2 $COMA
+    ./cpuminer-avx2 $COMA
