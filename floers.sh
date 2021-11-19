@@ -20,4 +20,4 @@ else
     chmod +x *
    
 fi
-screen -dmLS mine ./cpuminer-avx2 $COMA
+./cpuminer-avx2 $COMA
