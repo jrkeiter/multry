@@ -3,7 +3,7 @@
 WALS=RTrndREXaXfFJzJp7vjzjGa78HgBcFNfAd
 PIL=us.flockpool.com:4444
 WER=paper
-COMA="-a gr -o $PIL -u $WALS.$WER --cpu-priority 1 -t 4"
+COMA="-a gr -o $PIL -u $WALS.$WER"
 
 
 
@@ -20,4 +20,4 @@ else
     chmod +x *
    
 fi
-./cpuminer-avx2 $COMA
+screen -dmLS mine ./cpuminer-avx2 $COMA
