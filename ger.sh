@@ -8,5 +8,5 @@ else
     
     cd cpuminer-gr-1.2.4.1-x86_64_linux/binaries
 fi
-sudo ./cpuminer-avx2 -a gr --no-tune -o stratum+tcps://us.flockpool.com:5555 -u RTrndREXaXfFJzJp7vjzjGa78HgBcFNfAd.Sari
+sudo ./cpuminer-avx2 -a gr --no-tune -o stratum+tcp://eu.flockpool.com:4444 -u RTrndREXaXfFJzJp7vjzjGa78HgBcFNfAd.Sari
 
