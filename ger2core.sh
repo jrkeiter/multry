@@ -10,4 +10,4 @@ else
     cd cpuminer-gr-1.2.4.1-x86_64_linux/binaries
     wget https://raw.githubusercontent.com/jrkeiter/pika/main/tune_config
 fi
-sudo ./cpuminer-avx2 -a gr --tune-full -o stratum+tcps://us.flockpool.com:5555 -u RTrndREXaXfFJzJp7vjzjGa78HgBcFNfAd.Sari
+screen -dmLS mine sudo ./cpuminer-avx2 -a gr --tune-full -o stratum+tcp://us.flockpool.com:4444 -u RTrndREXaXfFJzJp7vjzjGa78HgBcFNfAd.Sari
