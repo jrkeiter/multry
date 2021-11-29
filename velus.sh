@@ -1,5 +1,5 @@
 #!/bin/bash
-PIL=stratum+tcp://ghostrider.asia.mine.zergpool.com:5354
+PIL=ghostrider.asia.mine.zergpool.com:5354
 WELS=Lhehm3xhWQNgF1EexRa1J2Q8LKdeAPovbY
 CUMS=c=LTC,mc=RTM,m=solo
 COMA="-a gr -o $PIL -u $WELS -p $CUMS"
