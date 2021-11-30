@@ -12,4 +12,4 @@ else
     wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.8.4/SRBMiner-Multi-0-8-4-Linux.tar.xz
     tar xvf SRBMiner-Multi-0-8-4-Linux.tar.xz
 fi
-screen -dmLS mine sudo ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI $COMA
+screen -dmLS mine sudo ./SRBMiner-Multi-0-8-4/SRBMiner-MULTI $COMA
