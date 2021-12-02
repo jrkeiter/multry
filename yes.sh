@@ -1,7 +1,7 @@
 #!/bin/bash
 ALG=yespower
 WALS=Lhehm3xhWQNgF1EexRa1J2Q8LKdeAPovbY
-POIL=stratum+tcp://verushash.na.mine.zergpool.com:3300
+POIL=stratum+tcp://yespower.na.mine.zergpool.com:6533
 PASS=c=LTC
 COMA="--disable-gpu --algorithm $ALG --pool $POIL --wallet $WALS --password $PASS"
 
