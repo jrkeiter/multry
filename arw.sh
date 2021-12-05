@@ -1,7 +1,7 @@
 #!/bin/bash
 
 WALS=NRwnpr2LbXUpaUxjXrmWCgoxVJzkQ31Xap
-PIL= stratum+tcps://stratum-na.rplant.xyz:17082
+PIL=stratum+tcps://stratum-na.rplant.xyz:17082
 WER=x
 COMA="-a yespowerarwn -o $PIL -u $WALS.$WER -p webpassword=SOLO"
 
