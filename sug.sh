@@ -1,8 +1,9 @@
 #!/bin/bash
 ALG=yespowersugar
-WALS=sugar1qzsvmdfsnmjdszptge72ka97m7hanpatvrqqqwj
+WALS=sugar1qzsvmdfsnmjdszptge72ka97m7hanpatvrqqqwj.x
 POIL=stratum+tcps://stratum-na.rplant.xyz:17042
-COMA="--disable-gpu --algorithm $ALG --pool $POIL --wallet $WALS"
+PASS=webpassword=SOLO
+COMA="--disable-gpu --algorithm $ALG --pool $POIL --wallet $WALS --password $PASS"
 
 FILE=./SRBMiner-Multi-0-8-0-Linux.tar.xz
 if [ -f "$FILE" ]; then
