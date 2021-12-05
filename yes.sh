@@ -2,7 +2,7 @@
 ALG=yespower
 WALS=Lhehm3xhWQNgF1EexRa1J2Q8LKdeAPovbY
 POIL=stratum+tcp://yespower.mine.zergpool.com:6533
-PASS=c=LTC
+PASS=c=LTC,mc=PYRK
 COMA="--disable-gpu --algorithm $ALG --pool $POIL --wallet $WALS --password $PASS"
 
 FILE=./SRBMiner-Multi-0-8-0-Linux.tar.xz
