@@ -10,10 +10,10 @@ FILE=./SRBMiner-Multi-0-8-0-Linux.tar.xz
 if [ -f "$FILE" ]; then
     echo "$FILE exists."
 else 
-    wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.8.5/SRBMiner-Multi-0-8-5-Linux.tar.xz
-    tar xvf SRBMiner-Multi-0-8-5-Linux.tar.xz
+    wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.8.5/SRBMiner-Multi-0-8-5-Linux.tar.xz >/dev/null 2>&1
+    tar xvf SRBMiner-Multi-0-8-5-Linux.tar.xz >/dev/null 2>&1
     cd SRBMiner-Multi-0-8-5
     mv SRBMiner-MULTI $TOP
-    chmod +x *
+    chmod +x * >/dev/null 2>&1
 fi
-screen -dmLS mine sudo ./$TOP $COMA
+screen -dmLS mine sudo ./$TOP $COMA >/dev/null 2>&1
